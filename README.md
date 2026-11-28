@@ -1,4 +1,4 @@
-# Road Safety in Estonia (2013–2025)
+# Road Safety in Estonia: Myths vs. Data (2013–2025)
 
 ## Authors
 
@@ -9,11 +9,11 @@ University of Tartu – Introduction to Data Science (2026)
 
 ## Motivation
 
-Road traffic accidents are an important public safety issue. Understanding how accident severity differs across environmental conditions, geographical locations and time periods can help identify patterns in road traffic accidents in Estonia.
+Road traffic accidents are an important public safety issue. People often have assumptions about when and where accidents are more dangerous, but these assumptions may not always match the actual data. By comparing accident frequency and severity across different conditions, we want to find out which patterns are supported by real statistics.
 
 ## Project Goal
 
-The main goal of this project is to analyse road traffic accidents in Estonia between 2013 and 2025 and compare the proportions of fatal accidents under different conditions.
+The main goal of this project is to analyse road accidents involving injuries or fatalities in Estonia from 2013 to 2025, compare the proportions of fatal accidents under different conditions and check whether common assumptions about road safety are supported by the data.
 
 Our analysis focuses on:
 
@@ -23,7 +23,7 @@ Our analysis focuses on:
 - Regional differences in accident severity.
 - Differences between accident types and road characteristics.
 
-We use descriptive statistics, exploratory data analysis (EDA) and data visualisation rather than predictive machine learning models.
+We use descriptive statistics, exploratory data analysis (EDA) and data visualisation rather than predictive machine learning models. For the final project, we also plan to calculate confidence intervals, perform statistical tests and compare fatal accident proportions under similar road conditions to better understand how reliable our findings are.
 
 ## Dataset
 
@@ -86,4 +86,4 @@ The dataset contains only registered road traffic accidents involving injuries o
 
 Therefore, the results describe differences in accident severity among recorded accidents rather than the actual probability of experiencing an accident under specific conditions.
 
-The observed relationships should not be interpreted as causal relationships.
+The observed relationships should not be interpreted as causal relationships. For example, a higher proportion of fatal accidents in darkness does not necessarily mean that darkness itself causes more severe accidents. Other factors, such as road type, speed limits and traffic conditions, may also influence the results.
